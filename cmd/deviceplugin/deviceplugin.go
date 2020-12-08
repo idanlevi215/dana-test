@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 	"syscall"
-	nvml "github.com/idanlevi215/dana-test/outsource/gpu-monitor-tools"
+	nvml "github.com/idanlevi215/dana-test/outsource/nvml"
 	"github.com/fsnotify/fsnotify"
 	pluginapi "k8s.io/kubelet/pkg/apis/deviceplugin/v1beta1"
 )

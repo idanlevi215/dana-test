@@ -5,7 +5,7 @@ package gpuallocator
 import (
 	"fmt"
 
-	nvml "github.com/idanlevi215/dana-test/outsource/gpu-monitor-tools"
+	nvml "github.com/idanlevi215/dana-test/outsource/nvml"
 )
 
 type bestEffortPolicy struct{}

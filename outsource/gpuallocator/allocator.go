@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"runtime"
 
-	nvml "github.com/idanlevi215/dana-test/outsource/gpu-monitor-tools"
+	nvml "github.com/idanlevi215/dana-test/outsource/nvml"
 )
 
 // Allocator defines the primary object for allocating and freeing the
