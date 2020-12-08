@@ -144,8 +144,13 @@ const (
 	FourNVLINKLinks
 	FiveNVLINKLinks
 	SixNVLINKLinks
+	SevenNVLINKLinks
+	EightNVLINKLinks
+	NineNVLINKLinks
+	TenNVLINKLinks
+	ElevenNVLINKLinks
+	TwelveNVLINKLinks
 )
-
 type P2PLink struct {
 	BusID string
 	Link  P2PLinkType
@@ -177,11 +182,22 @@ func (t P2PLinkType) String() string {
 		return "Five NVLinks"
 	case SixNVLINKLinks:
 		return "Six NVLinks"
+	case SevenNVLINKLinks:
+		return "Seven NVLinks"
+	case EightNVLINKLinks:
+		return "Eight NVLinks"
+	case NineNVLINKLinks:
+		return "Nine NVLinks"
+	case TenNVLINKLinks:
+		return "Ten NVLinks"
+	case ElevenNVLINKLinks:
+		return "Eleven NVLinks"
+	case TwelveNVLINKLinks:
+		return "Twelve NVLinks"
 	case P2PLinkUnknown:
 	}
 	return "N/A"
 }
-
 type ClockInfo struct {
 	Cores  *uint
 	Memory *uint
