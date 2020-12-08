@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	///"github.com/raz-bn/k8s-gpu-monitor/bindings/go/nvml/nvsmi"
-	"github.com/idanlevi215/dana-test/internal/nvml/bindings/go/nvml/nvsmi"
+	"github.com/idanlevi215/dana-test/outsource/nvml/nvsmi"
 )
 
 func check(err error, t *testing.T) {
