@@ -1,7 +1,7 @@
 package deviceplugin
 
 import (
-	"dana.894/outsource/gpu-monitor-tools"
+	"github.com/idanlevi215/dana-test/outsource/gpu-monitor-tools"
 	"log"
 	"os"
 	"strings"

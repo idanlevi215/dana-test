@@ -2,7 +2,7 @@ package deviceplugin
 
 import (
 
-	"dana.894/outsource/gpuallocator"
+	"github.com/idanlevi215/dana-test/outsource/gpuallocator"
 	"google.golang.org/grpc"
 	pluginapi "k8s.io/kubelet/pkg/apis/deviceplugin/v1beta1"
 	"os"

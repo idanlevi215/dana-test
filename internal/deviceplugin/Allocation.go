@@ -3,7 +3,7 @@ package deviceplugin
 import (
 	"flag"
 	"fmt"
-	"dana.894/outsource/gpuallocator"
+	"github.com/idanlevi215/dana-test/outsource/gpuallocator"
 	pluginapi "k8s.io/kubelet/pkg/apis/deviceplugin/v1beta1"
 	"strings"
 	"golang.org/x/net/context"

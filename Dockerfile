@@ -27,7 +27,7 @@ ENV GOPATH /go
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 
 
-WORKDIR /go/src/dana.894
+WORKDIR /go/src/github.com/idanlevi215/dana-test
 COPY . .
 
 RUN ls

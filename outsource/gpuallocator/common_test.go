@@ -7,7 +7,7 @@ import (
 	"sort"
 	"testing"
 
-	nvml "dana.894/outsource/gpu-monitor-tools"
+	nvml "github.com/idanlevi215/dana-test/outsource/gpu-monitor-tools"
 )
 
 const pad = ^int(0)

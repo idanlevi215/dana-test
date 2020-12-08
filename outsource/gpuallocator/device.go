@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	nvml "dana.894/outsource/gpu-monitor-tools"
+	nvml "github.com/idanlevi215/dana-test/outsource/gpu-monitor-tools"
 )
 
 // Device represents a GPU device as reported by NVML, including all of its

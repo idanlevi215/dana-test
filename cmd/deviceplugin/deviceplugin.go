@@ -2,12 +2,12 @@ package main
 
 
 import (
-	dp "dana.894/internal/deviceplugin"
+	dp "github.com/idanlevi215/dana-test/internal/deviceplugin"
 	"flag"
 	"log"
 	"os"
 	"syscall"
-	nvml "dana.894/outsource/gpu-monitor-tools"
+	nvml "github.com/idanlevi215/dana-test/outsource/gpu-monitor-tools"
 	"github.com/fsnotify/fsnotify"
 	pluginapi "k8s.io/kubelet/pkg/apis/deviceplugin/v1beta1"
 )
